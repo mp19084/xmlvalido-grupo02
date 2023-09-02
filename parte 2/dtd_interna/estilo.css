@@ -1,0 +1,15 @@
+@namespace h url("http://www.w3.org/1999/xhtml");
+@namespace e url("http://www.ejemplo.com/");
+
+*|* {color:green;border-style:none;}
+*|a {color:blue;display:block;}
+*|website {display:block;margin:50px;border-style:solid;}
+*|img {width: 120px;height:80px;}
+*|titulo {display: block;}
+*|encabezado {display:block; font-size:1.5cm;}
+fichero {background-color:rgb(255, 255, 255);}
+ficha {background-color:rgb(144, 170, 127); display:block;} 
+nombre {color:white; display:inline;} 
+apellido {color:purple; display:inline;}
+direccion {color:yellow;font-size:1cm; display:none;}
+DUI {color:white; display:inline;} 

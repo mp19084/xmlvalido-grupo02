@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="tareas.css" ?>
+<!DOCTYPE fichero SYSTEM "tareas.dtd">
+<equipo>
+ <fichaJugador>
+  <nombre sexo="masculino" edad="22" estatura="194" pero="85">
+         virgil 
+  </nombre>
+  <apellido>van dijk</apellido>
+  <posicion>defensa</posicion>
+  <nacionalidad>neerlandés</nacionalidad>
+</fichaJugador>
+ <fichaJugador>
+  <nombre sexo="masculino" edad="38" estatura="174" pero="80">
+         Leonel Andres 
+  </nombre>
+  <apellido>Messi</apellido>
+  <posicion>delantero</posicion>
+  <nacionalidad>argentino</nacionalidad>
+</fichaJugador>
+<publicacion>
+ <website>
+<titulo>Para volver al index, presiona:</titulo>
+<a xmlns="http://www.w3.org/1999/xhtml" href="../index.html">INDICE</a>
+</website>
+</publicacion>
+</equipo>

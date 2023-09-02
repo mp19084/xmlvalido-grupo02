@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="estilo.css" ?>
+<!-- ejemplodtd1.xml G04 -->
+<!DOCTYPE fichero [
+		<!ELEMENT fichero (ficha+)>
+<!ELEMENT ficha (nombre, apellido, direccion*, DUI?)>
+		<!ELEMENT nombre (#PCDATA)>
+		<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
+            <!ATTLIST nombre edad  CDATA  #IMPLIED>
+		<!ELEMENT apellido (#PCDATA)>
+		<!ELEMENT direccion (#PCDATA)>
+		<!ELEMENT DUI (#PCDATA)>
+    <!ELEMENT publicacion (website+) >
+    <!ELEMENT website (titulo,a) >
+    <!ELEMENT titulo (#PCDATA) >
+    <!ELEMENT a (#PCDATA) >
+    <!ATTLIST a  
+            href CDATA #IMPLIED
+            xmlns CDATA #IMPLIED 
+    >
+]>
+<fichero>
+ <ficha>
+  <nombre sexo="femenino" edad="17">Angelina</nombre>
+  <apellido>Fernandez</apellido>
+  <direccion>c/Ulises, 36</direccion>
+  <publicacion>
+  <website>
+  <titulo>Para volver al index, presiona:</titulo>
+  <a xmlns="http://www.w3.org/1999/xhtml" href="../../index.html">INDICE</a>
+  </website>
+  </publicacion>
+ </ficha>
+</fichero>
